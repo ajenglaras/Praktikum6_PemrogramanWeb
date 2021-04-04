@@ -1,0 +1,27 @@
+body {
+    background: black; /*memberi warna background lemonchiffon*/
+}
+h1{
+    text-align: center; /*meletakkan teks di tengah halaman*/
+    margin-top:2cm; /*memberikan jarak margin atas 2 cm*/
+}
+h4{
+    text-align: center;  /*meletakkan teks di tengah halaman*/
+}
+section {
+    background: lightsalmon; color:black; padding: 1em; position: absolute; top: 50%; left: 50%; margin-right: -50%; 
+    transform: translate(-50%, -50%);
+}
+/*memberikan style warna background lightsalmon, warna font hitam, jarak antara text dan border 1em,
+kemudian membawa semua elemen yang berada di body web ke posisi center di tengah-tengah dengan jarak margin kanan, kiri,
+atas, dan bawah sebesar 50% dari luas tampilan-->*/
+tr {
+    background-color: cornsilk; /*memberi warna background cornsilk*/
+}
+.menu{ /*memberikan style pada tombol sembunyi*/
+    color:black; /*text berwarna hitam*/
+    background-color:lightgray; /*background tombol berwarna salmon*/
+    margin-top: 10px; /*jarak margin atas 10px*/
+    margin-bottom: 10px; /*jarak margin bawah 10px*/
+}
+
